@@ -320,8 +320,9 @@ body._lock {
 }
 .hero {
   position: relative;
-  min-width: 100vw;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   padding-top: 100px;
@@ -473,7 +474,7 @@ body._lock {
   color: rgb(176, 186, 197);
   text-shadow: none;
 }
-@media (max-width: 61.9988rem) {
+@media (max-width: 81.25rem) {
   .hero__subtitle {
     color: rgb(219, 224, 230);
     position: relative;
