@@ -319,9 +319,9 @@ body._lock {
   }
 }
 .hero {
-  position: fixed;
-  width: 100%;
-  height: 100%;
+  position: relative;
+  width: 100vw;
+  height: 100dvh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -345,8 +345,8 @@ body._lock {
   left: 0;
   outline: none;
   z-index: 20;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   opacity: 0;
 }
 .hero__back-decor {
@@ -355,8 +355,8 @@ body._lock {
   top: 0;
   left: 0;
   outline: none;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   background: radial-gradient(circle at center center, #171717 0, #050505 58%);
   z-index: 5;
@@ -368,8 +368,8 @@ body._lock {
   left: 0;
   outline: none;
   z-index: 10;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 .hero__back-fog img {
   position: absolute;
