@@ -321,9 +321,7 @@ body._lock {
 .hero {
   position: relative;
   width: 100vw;
-  height: 100vh;
-  min-height: 100vh;
-  max-height: -webkit-fill-available;
+  height: 100dvh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
